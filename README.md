@@ -32,3 +32,18 @@ Map Server在啟動或Plugin目錄被重新設定時，會重新開始搜尋指�
 2. 開始建置專案。(須注意Debug/Release與CPU版本。)
 3. 完成後請到專案資料夾中的`\bin\Debug`(或是`\bin\Release`，依建置類型決定)目錄內將檔案複製到安裝目錄下的`plugins`目錄中。
 4. 最後用client進行呼叫查看執行結果。
+5. 呼叫範例：
+
+```html
+http://127.0.0.1:8080/wmts?Layer=範例向量圖層&Request=GetFeatureInfo&TileMatrixSet=EPSG:3857&i=127&j=127&TileRow=877&TileCol=1713&TileMatrix=11&InfoFormat=application/json
+```
+
+> **補充說明：**<br/>
+> 其他詳細參數如下列介紹：
+>
+> + Layer：要讀取資訊的圖層名稱。
+> + TileMatrixSet：圖層右鍵編輯→進階設定就能看到。
+> + i、j：在圖磚中的坐標。
+> + TileRow、TileCol：圖磚縱、橫軸索引。
+> + TileMatrix：圖磚資料層集合。
+> + InfoFormat：回傳的結構。
