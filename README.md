@@ -1,7 +1,7 @@
 # FeatureInfo 範例專案檔
 PilotGaea O’view Map Server FeatureInfo Plugin
 
-[開發者文件](https://nlscsample.pilotgaea.com.tw/demo/ProgrammingGuide/src/04.ServerSidePlugin/04.2_PluginSample.html#FeatureInfo)
+[開發者文件](https://nlscsample.pilotgaea.com.tw/demo/ProgrammingGuide/src/04.ServerSidePlugin/04.2_PluginSample.html#featureinfo)
 
 ## Map Server Plugin 介紹：
 
